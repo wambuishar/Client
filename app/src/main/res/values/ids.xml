@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="username" type="id" />
+    <item name="phone" type="id" />
+    <item name="email" type="id" />
+    <item name="password" type="id" />
+    <item name="password1" type="id" />
+    <item name="btnRegister" type="id" />
+    <item name="et_reg_email" type="id" />
+    <item name="btn_alert" type="id" />
+    <item name="btn_report" type="id" />
+    <item name="btn_notification" type="id" />
+</resources>

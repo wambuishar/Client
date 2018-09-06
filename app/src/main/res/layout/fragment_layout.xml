@@ -1,0 +1,44 @@
+<!-- Your package folder -->
+
+<com.example.sha.client.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_addusers"
+        style="@style/DashboardButton"
+        android:clickable="true"
+        android:drawableTop="@drawable/users"
+        android:text="Add Users" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_view"
+        style="@style/DashboardButton"
+        android:clickable="true"
+        android:drawableTop="@drawable/view"
+        android:text="View User" />
+
+
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_reports"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/report"
+        android:text="Reports" />
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_alert"
+        android:clickable="true"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/notifications"
+        android:text="Notifications" />
+
+
+
+</com.example.sha.client.DashboardLayout>
